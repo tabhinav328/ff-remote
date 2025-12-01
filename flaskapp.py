@@ -1,7 +1,7 @@
 import os, json
 from flask import Flask, render_template_string, request
 from datetime import datetime, timedelta
-#i am jod
+
 app = Flask(__name__)
 
 STATE_FILE = "state.json"
@@ -36,7 +36,7 @@ def save_state():
 
 load_state()
 
-
+#lol
 # ---------------- UI ----------------
 @app.route("/")
 def home():
