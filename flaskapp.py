@@ -1,4 +1,4 @@
-# flaskapp.py → AUTO shows online + buttons appear instantly
+#hola maigostaa me raige
 import os
 from flask import Flask, render_template_string
 from datetime import datetime, timedelta
