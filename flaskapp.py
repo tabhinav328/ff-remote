@@ -9,7 +9,7 @@ STATE_FILE = "state.json"
 command = "none"
 last_alive = None
 
-
+#jija ka
 # ---------------- PERSISTENCE ----------------
 def load_state():
     global command, last_alive
@@ -105,5 +105,6 @@ def stop():
 @app.route("/status")
 def status():
     return command
+
 
 
