@@ -9,7 +9,7 @@ STATE_FILE = "state.json"
 command = "none"
 last_alive = None
 
-#jod
+
 # ---------------- PERSISTENCE ----------------
 def load_state():
     global command, last_alive
@@ -36,7 +36,7 @@ def save_state():
 
 load_state()
 
-#lol
+
 # ---------------- UI ----------------
 @app.route("/")
 def home():
@@ -105,7 +105,5 @@ def stop():
 @app.route("/status")
 def status():
     return command
-
-
 
 
